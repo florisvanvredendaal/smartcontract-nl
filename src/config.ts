@@ -3,7 +3,7 @@ export const siteConfig = {
   url: 'https://www.smartcontract.nl',
   description: 'Smart Contracts, Ethereum, en Crypto info/nieuws',
   language: 'nl',
-  logo: '/images/logo.png',
+  logo: 'https://www.smartcontract.nl/wp-content/uploads/2018/05/smartcontractsnl.png',
   colors: {
     primary: '#2563eb',
     secondary: '#1e40af',
@@ -23,6 +23,6 @@ export const siteConfig = {
     { label: 'Contact', href: '/contact' },
   ],
   footer: {
-    copyright: `© ${new Date().getFullYear()} SmartContract.nl. Alle rechten voorbehouden.`,
+    copyright: "© ${new Date().getFullYear()} SmartContract.nl. Alle rechten voorbehouden.",
   },
 };
